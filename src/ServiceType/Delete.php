@@ -19,7 +19,7 @@ class Delete extends AbstractSoapClientBase
      * @param string $actor
      * @return bool
      */
-    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v60.wsdl', $mustUnderstand = false, $actor = null)
+    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v61.wsdl', $mustUnderstand = false, $actor = null)
     {
         return $this->setSoapHeader($nameSpace, 'Header', $header, $mustUnderstand, $actor);
     }
@@ -27,7 +27,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteUnusedPswds
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -51,7 +51,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteUser
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -76,7 +76,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteCourse
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -101,7 +101,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteSubunit
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -126,7 +126,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteSurvey
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -150,7 +150,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -174,7 +174,7 @@ class Delete extends AbstractSoapClientBase
      * Method to call the operation originally named DeleteVolumeLicense
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()

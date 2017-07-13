@@ -6,7 +6,7 @@
  * - the key must be a constant beginning with WSDL_ from AbstractSoapClientbase class each generated ServiceType class extends this class
  * - the value must be the corresponding key value (each option matches a {@link http://www.php.net/manual/en/soapclient.soapclient.php} option)
  * $options = array(
- * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'http://evasys-dmz.kent.ac.uk/evasys/services/soapserver-v60.wsdl',
+ * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'http://evasys-dmz.kent.ac.uk/evasys/services/soapserver-v61.wsdl',
  * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_TRACE => true,
  * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_LOGIN => 'you_secret_login',
  * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_PASSWORD => 'you_secret_password',
@@ -18,7 +18,7 @@ require_once __DIR__ . '/vendor/autoload.php';
  * Minimal options
  */
 $options = array(
-    \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'http://evasys-dmz.kent.ac.uk/evasys/services/soapserver-v60.wsdl',
+    \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'http://evasys-dmz.kent.ac.uk/evasys/services/soapserver-v61.wsdl',
     \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => ClassMap::get(),
 );
 /**
@@ -322,6 +322,22 @@ if ($get->GetAccessibleSubunitsForSubunitAdmin($nUserId) !== false) {
  * Sample call for GetUserVolumeLicenses operation/method
  */
 if ($get->GetUserVolumeLicenses($UserId) !== false) {
+    print_r($get->getResult());
+} else {
+    print_r($get->getLastError());
+}
+/**
+ * Sample call for GetSurveyOriginalScansPDF operation/method
+ */
+if ($get->GetSurveyOriginalScansPDF($SurveyId, $SheetId, $BatchId) !== false) {
+    print_r($get->getResult());
+} else {
+    print_r($get->getLastError());
+}
+/**
+ * Sample call for GetWebscanBatchList operation/method
+ */
+if ($get->GetWebscanBatchList($UserId, $Language) !== false) {
     print_r($get->getResult());
 } else {
     print_r($get->getLastError());
@@ -689,4 +705,17 @@ if ($replace->ReplaceAnswersToOpenQuestions(new \StructType\IDList(), new \Struc
     print_r($replace->getResult());
 } else {
     print_r($replace->getLastError());
+}
+/**
+ * Samples for Apply ServiceType
+ */
+$apply = new \ServiceType\Apply($options);
+$apply->setSoapHeaderHeader(new \StructType\Header());
+/**
+ * Sample call for ApplyActionOnWebscanBatch operation/method
+ */
+if ($apply->ApplyActionOnWebscanBatch($BatchId, $Action) !== false) {
+    print_r($apply->getResult());
+} else {
+    print_r($apply->getLastError());
 }

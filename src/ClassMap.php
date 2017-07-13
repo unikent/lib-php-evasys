@@ -92,6 +92,9 @@ class ClassMap
             'CourseTypeList' => '\\StructType\\CourseTypeList',
             'VolumeLicense' => '\\StructType\\VolumeLicense',
             'VolumeLicenseList' => '\\StructType\\VolumeLicenseList',
+            'WebscanBatch' => '\\StructType\\WebscanBatch',
+            'WebscanBatchList' => '\\StructType\\WebscanBatchList',
+            'tSoapfault' => '\\StructType\\TSoapfault',
         );
     }
 }

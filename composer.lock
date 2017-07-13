@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "134406f42635810ee762bcf5c96b7468",
+    "content-hash": "9dbcc9ac0ed8dcedff9113996168b382",
     "packages": [
         {
             "name": "wsdltophp/packagebase",

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitea0916df2a9b8784ec9719c12096ed13
+class ComposerStaticInit6ac04e10d9e08a7d973725f1cdc5be80
 {
     public static $prefixLengthsPsr4 = array (
         'W' => 
@@ -40,6 +40,7 @@ class ComposerStaticInitea0916df2a9b8784ec9719c12096ed13
         'EnumType\\SubunitIdType' => __DIR__ . '/../..' . '/src/EnumType/SubunitIdType.php',
         'EnumType\\UserIdType' => __DIR__ . '/../..' . '/src/EnumType/UserIdType.php',
         'ServiceType\\Activate' => __DIR__ . '/../..' . '/src/ServiceType/Activate.php',
+        'ServiceType\\Apply' => __DIR__ . '/../..' . '/src/ServiceType/Apply.php',
         'ServiceType\\Close' => __DIR__ . '/../..' . '/src/ServiceType/Close.php',
         'ServiceType\\Create' => __DIR__ . '/../..' . '/src/ServiceType/Create.php',
         'ServiceType\\Delete' => __DIR__ . '/../..' . '/src/ServiceType/Delete.php',
@@ -121,6 +122,7 @@ class ComposerStaticInitea0916df2a9b8784ec9719c12096ed13
         'StructType\\SurveyStatusList' => __DIR__ . '/../..' . '/src/StructType/SurveyStatusList.php',
         'StructType\\SurveyType' => __DIR__ . '/../..' . '/src/StructType/SurveyType.php',
         'StructType\\SurveyTypeList' => __DIR__ . '/../..' . '/src/StructType/SurveyTypeList.php',
+        'StructType\\TSoapfault' => __DIR__ . '/../..' . '/src/StructType/TSoapfault.php',
         'StructType\\TaskList' => __DIR__ . '/../..' . '/src/StructType/TaskList.php',
         'StructType\\Unit' => __DIR__ . '/../..' . '/src/StructType/Unit.php',
         'StructType\\UnitList' => __DIR__ . '/../..' . '/src/StructType/UnitList.php',
@@ -132,6 +134,8 @@ class ComposerStaticInitea0916df2a9b8784ec9719c12096ed13
         'StructType\\VFForm' => __DIR__ . '/../..' . '/src/StructType/VFForm.php',
         'StructType\\VolumeLicense' => __DIR__ . '/../..' . '/src/StructType/VolumeLicense.php',
         'StructType\\VolumeLicenseList' => __DIR__ . '/../..' . '/src/StructType/VolumeLicenseList.php',
+        'StructType\\WebscanBatch' => __DIR__ . '/../..' . '/src/StructType/WebscanBatch.php',
+        'StructType\\WebscanBatchList' => __DIR__ . '/../..' . '/src/StructType/WebscanBatchList.php',
         'WsdlToPhp\\PackageBase\\AbstractSoapClientBase' => __DIR__ . '/..' . '/wsdltophp/packagebase/src/AbstractSoapClientBase.php',
         'WsdlToPhp\\PackageBase\\AbstractStructArrayBase' => __DIR__ . '/..' . '/wsdltophp/packagebase/src/AbstractStructArrayBase.php',
         'WsdlToPhp\\PackageBase\\AbstractStructBase' => __DIR__ . '/..' . '/wsdltophp/packagebase/src/AbstractStructBase.php',
@@ -153,10 +157,10 @@ class ComposerStaticInitea0916df2a9b8784ec9719c12096ed13
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitea0916df2a9b8784ec9719c12096ed13::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitea0916df2a9b8784ec9719c12096ed13::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitea0916df2a9b8784ec9719c12096ed13::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInitea0916df2a9b8784ec9719c12096ed13::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6ac04e10d9e08a7d973725f1cdc5be80::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6ac04e10d9e08a7d973725f1cdc5be80::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit6ac04e10d9e08a7d973725f1cdc5be80::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInit6ac04e10d9e08a7d973725f1cdc5be80::$classMap;
 
         }, null, ClassLoader::class);
     }

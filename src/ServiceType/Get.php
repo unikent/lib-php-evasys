@@ -19,7 +19,7 @@ class Get extends AbstractSoapClientBase
      * @param string $actor
      * @return bool
      */
-    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v60.wsdl', $mustUnderstand = false, $actor = null)
+    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v61.wsdl', $mustUnderstand = false, $actor = null)
     {
         return $this->setSoapHeader($nameSpace, 'Header', $header, $mustUnderstand, $actor);
     }
@@ -27,7 +27,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPswdsByParticipant
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -52,7 +52,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetUser
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -81,7 +81,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetUsersBySubunit
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -105,7 +105,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetAllPeriods
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -128,7 +128,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetCoursesByUserId
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -152,7 +152,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetCourse
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -179,7 +179,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPeriod
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -204,7 +204,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetAllForms
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -228,7 +228,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSurveyTypes
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -251,7 +251,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetFormByCourseIdAndPeriodId
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -276,7 +276,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetForm
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -302,7 +302,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSurveyById
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -326,7 +326,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSurveysByCourse
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -352,7 +352,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPswdsBySurvey
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -378,7 +378,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPDFReport
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -405,7 +405,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSubunits
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -428,7 +428,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSubunit
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -454,7 +454,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPDFPluginsByFormId
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -478,7 +478,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPDFQuestionnaire
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -504,7 +504,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPDFCoversheet
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -528,7 +528,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPDFPswd
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -552,7 +552,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSPSSRawData
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -576,7 +576,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetCSVRawData
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -600,7 +600,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSurveyRawData
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -625,7 +625,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSurveyResults
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -649,7 +649,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetOnlineSurveyLinkByEmail
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -676,7 +676,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetCustomReportsByForm
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -701,7 +701,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSimpleForm
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -727,7 +727,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetVFD
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -752,7 +752,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSurveyRawDataByTime
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -778,7 +778,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetSessionForUser
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -803,7 +803,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetCourseTypes
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -827,7 +827,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetPswdsByRecipient
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -852,7 +852,7 @@ class Get extends AbstractSoapClientBase
      * GetPercentOfCompletedSurveysByParticipant
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -881,7 +881,7 @@ class Get extends AbstractSoapClientBase
      * GetAccessibleSubunitsForSubunitAdmin
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -905,7 +905,7 @@ class Get extends AbstractSoapClientBase
      * Method to call the operation originally named GetUserVolumeLicenses
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -926,9 +926,60 @@ class Get extends AbstractSoapClientBase
         }
     }
     /**
+     * Method to call the operation originally named GetSurveyOriginalScansPDF
+     * Meta informations extracted from the WSDL
+     * - SOAPHeaderNames: Header
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
+     * - SOAPHeaderTypes: \StructType\Header
+     * - SOAPHeaders: required
+     * @uses AbstractSoapClientBase::getSoapClient()
+     * @uses AbstractSoapClientBase::setResult()
+     * @uses AbstractSoapClientBase::getResult()
+     * @uses AbstractSoapClientBase::saveLastError()
+     * @param string $surveyId
+     * @param string $sheetId
+     * @param string $batchId
+     * @return string|bool
+     */
+    public function GetSurveyOriginalScansPDF($surveyId, $sheetId, $batchId)
+    {
+        try {
+            $this->setResult(self::getSoapClient()->GetSurveyOriginalScansPDF($surveyId, $sheetId, $batchId));
+            return $this->getResult();
+        } catch (\SoapFault $soapFault) {
+            $this->saveLastError(__METHOD__, $soapFault);
+            return false;
+        }
+    }
+    /**
+     * Method to call the operation originally named GetWebscanBatchList
+     * Meta informations extracted from the WSDL
+     * - SOAPHeaderNames: Header
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
+     * - SOAPHeaderTypes: \StructType\Header
+     * - SOAPHeaders: required
+     * @uses AbstractSoapClientBase::getSoapClient()
+     * @uses AbstractSoapClientBase::setResult()
+     * @uses AbstractSoapClientBase::getResult()
+     * @uses AbstractSoapClientBase::saveLastError()
+     * @param string $userId
+     * @param string $language
+     * @return \StructType\WebscanBatchList|bool
+     */
+    public function GetWebscanBatchList($userId, $language)
+    {
+        try {
+            $this->setResult(self::getSoapClient()->GetWebscanBatchList($userId, $language));
+            return $this->getResult();
+        } catch (\SoapFault $soapFault) {
+            $this->saveLastError(__METHOD__, $soapFault);
+            return false;
+        }
+    }
+    /**
      * Returns the result
      * @see AbstractSoapClientBase::getResult()
-     * @return int|string|\StructType\Course|\StructType\CourseList|\StructType\CourseTypeList|\StructType\CustomReportList|\StructType\OnlineCodeList|\StructType\OnlineSurveyKeyList|\StructType\PDFPluginContainer|\StructType\Period|\StructType\PeriodList|\StructType\SimpleForm|\StructType\SimpleFormList|\StructType\Survey|\StructType\SurveyList|\StructType\SurveyRawData|\StructType\SurveyRawDataList|\StructType\SurveyResult|\StructType\SurveyTypeList|\StructType\Unit|\StructType\UnitList|\StructType\User|\StructType\UserList|\StructType\UserSession|\StructType\VFForm|\StructType\VolumeLicenseList
+     * @return int|string|\StructType\Course|\StructType\CourseList|\StructType\CourseTypeList|\StructType\CustomReportList|\StructType\OnlineCodeList|\StructType\OnlineSurveyKeyList|\StructType\PDFPluginContainer|\StructType\Period|\StructType\PeriodList|\StructType\SimpleForm|\StructType\SimpleFormList|\StructType\Survey|\StructType\SurveyList|\StructType\SurveyRawData|\StructType\SurveyRawDataList|\StructType\SurveyResult|\StructType\SurveyTypeList|\StructType\Unit|\StructType\UnitList|\StructType\User|\StructType\UserList|\StructType\UserSession|\StructType\VFForm|\StructType\VolumeLicenseList|\StructType\WebscanBatchList
      */
     public function getResult()
     {

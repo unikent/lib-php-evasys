@@ -1,6 +1,6 @@
 {
     "name": "unikent/lib-php-evasys",
-    "description": "Evasys SOAP server API v60",
+    "description": "Package generated from http://evasys-dmz.kent.ac.uk/evasys/services/soapserver-v61.wsdl using wsdltophp/packagegenerator",
     "require": {
         "php": ">=5.3.3",
         "ext-soap": "*",

@@ -19,7 +19,7 @@ class Insert extends AbstractSoapClientBase
      * @param string $actor
      * @return bool
      */
-    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v60.wsdl', $mustUnderstand = false, $actor = null)
+    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v61.wsdl', $mustUnderstand = false, $actor = null)
     {
         return $this->setSoapHeader($nameSpace, 'Header', $header, $mustUnderstand, $actor);
     }
@@ -27,7 +27,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertCourse
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -51,7 +51,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertCentralSurvey
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -80,7 +80,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertUser
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -104,7 +104,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertSubunit
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -128,7 +128,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertForm
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -152,7 +152,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertParticipants
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -179,7 +179,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertSurveyNotice
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -206,7 +206,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertInvitationTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -230,7 +230,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertRemindTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -254,7 +254,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertResponseRateTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -278,7 +278,7 @@ class Insert extends AbstractSoapClientBase
      * Method to call the operation originally named InsertCloseTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()

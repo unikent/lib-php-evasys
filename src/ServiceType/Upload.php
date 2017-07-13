@@ -19,7 +19,7 @@ class Upload extends AbstractSoapClientBase
      * @param string $actor
      * @return bool
      */
-    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v60.wsdl', $mustUnderstand = false, $actor = null)
+    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v61.wsdl', $mustUnderstand = false, $actor = null)
     {
         return $this->setSoapHeader($nameSpace, 'Header', $header, $mustUnderstand, $actor);
     }
@@ -27,7 +27,7 @@ class Upload extends AbstractSoapClientBase
      * Method to call the operation originally named UploadSessions
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -52,7 +52,7 @@ class Upload extends AbstractSoapClientBase
      * Method to call the operation originally named UploadModules
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -76,7 +76,7 @@ class Upload extends AbstractSoapClientBase
      * Method to call the operation originally named UploadVolumeLicense
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()

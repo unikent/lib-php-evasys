@@ -15,6 +15,7 @@ class OnlineSurveyKeyList extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - maxOccurs: unbounded
      * - minOccurs: 0
+     * - nillable: true
      * @var \StructType\OnlineSurveyKey[]
      */
     public $OnlineSurveyKeys;
@@ -30,14 +31,19 @@ class OnlineSurveyKeyList extends AbstractStructBase
     }
     /**
      * Get OnlineSurveyKeys value
+     * An additional test has been added (isset) before returning the property value as
+     * this property may have been unset before, due to the fact that this property is
+     * removable from the request (nillable=true+minOccurs=0)
      * @return \StructType\OnlineSurveyKey[]|null
      */
     public function getOnlineSurveyKeys()
     {
-        return $this->OnlineSurveyKeys;
+        return isset($this->OnlineSurveyKeys) ? $this->OnlineSurveyKeys : null;
     }
     /**
      * Set OnlineSurveyKeys value
+     * This property is removable from request (nillable=true+minOccurs=0), therefore
+     * if the value assigned to this property is null, it is removed from this object
      * @throws \InvalidArgumentException
      * @param \StructType\OnlineSurveyKey[] $onlineSurveyKeys
      * @return \StructType\OnlineSurveyKeyList
@@ -50,7 +56,11 @@ class OnlineSurveyKeyList extends AbstractStructBase
                 throw new \InvalidArgumentException(sprintf('The OnlineSurveyKeys property can only contain items of \StructType\OnlineSurveyKey, "%s" given', is_object($onlineSurveyKeyListOnlineSurveyKeysItem) ? get_class($onlineSurveyKeyListOnlineSurveyKeysItem) : gettype($onlineSurveyKeyListOnlineSurveyKeysItem)), __LINE__);
             }
         }
-        $this->OnlineSurveyKeys = $onlineSurveyKeys;
+        if (is_null($onlineSurveyKeys) || (is_array($onlineSurveyKeys) && empty($onlineSurveyKeys))) {
+            unset($this->OnlineSurveyKeys);
+        } else {
+            $this->OnlineSurveyKeys = $onlineSurveyKeys;
+        }
         return $this;
     }
     /**

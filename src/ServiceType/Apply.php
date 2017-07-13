@@ -5,10 +5,10 @@ namespace ServiceType;
 use \WsdlToPhp\PackageBase\AbstractSoapClientBase;
 
 /**
- * This class stands for Open ServiceType
+ * This class stands for Apply ServiceType
  * @subpackage Services
  */
-class Open extends AbstractSoapClientBase
+class Apply extends AbstractSoapClientBase
 {
     /**
      * Sets the Header SoapHeader param
@@ -24,7 +24,7 @@ class Open extends AbstractSoapClientBase
         return $this->setSoapHeader($nameSpace, 'Header', $header, $mustUnderstand, $actor);
     }
     /**
-     * Method to call the operation originally named OpenSurvey
+     * Method to call the operation originally named ApplyActionOnWebscanBatch
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
      * - SOAPHeaderNamespaces: soapserver-v61.wsdl
@@ -34,13 +34,14 @@ class Open extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::getResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param string $nSurveyId
+     * @param string $batchId
+     * @param string $action
      * @return boolean|bool
      */
-    public function OpenSurvey($nSurveyId)
+    public function ApplyActionOnWebscanBatch($batchId, $action)
     {
         try {
-            $this->setResult(self::getSoapClient()->OpenSurvey($nSurveyId));
+            $this->setResult(self::getSoapClient()->ApplyActionOnWebscanBatch($batchId, $action));
             return $this->getResult();
         } catch (\SoapFault $soapFault) {
             $this->saveLastError(__METHOD__, $soapFault);

@@ -19,7 +19,7 @@ class Update extends AbstractSoapClientBase
      * @param string $actor
      * @return bool
      */
-    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v60.wsdl', $mustUnderstand = false, $actor = null)
+    public function setSoapHeaderHeader(\StructType\Header $header, $nameSpace = 'soapserver-v61.wsdl', $mustUnderstand = false, $actor = null)
     {
         return $this->setSoapHeader($nameSpace, 'Header', $header, $mustUnderstand, $actor);
     }
@@ -27,7 +27,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateUser
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -51,7 +51,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateCourse
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -76,7 +76,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateSurvey
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -100,7 +100,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateInvitationTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -124,7 +124,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateRemindTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -148,7 +148,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateResponseRateTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
@@ -172,7 +172,7 @@ class Update extends AbstractSoapClientBase
      * Method to call the operation originally named UpdateCloseTask
      * Meta informations extracted from the WSDL
      * - SOAPHeaderNames: Header
-     * - SOAPHeaderNamespaces: soapserver-v60.wsdl
+     * - SOAPHeaderNamespaces: soapserver-v61.wsdl
      * - SOAPHeaderTypes: \StructType\Header
      * - SOAPHeaders: required
      * @uses AbstractSoapClientBase::getSoapClient()
