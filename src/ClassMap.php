@@ -1,0 +1,97 @@
+<?php
+/**
+ * Class which returns the class map definition
+ * @package
+ */
+class ClassMap
+{
+    /**
+     * Returns the mapping between the WSDL Structs and generated Structs' classes
+     * This array is sent to the \SoapClient when calling the WS
+     * @return string[]
+     */
+    final public static function get()
+    {
+        return array(
+            'Header' => '\\StructType\\Header',
+            'StringList' => '\\StructType\\StringList',
+            'IDList' => '\\StructType\\IDList',
+            'Course' => '\\StructType\\Course',
+            'CourseList' => '\\StructType\\CourseList',
+            'User' => '\\StructType\\User',
+            'UserList' => '\\StructType\\UserList',
+            'Person' => '\\StructType\\Person',
+            'PersonList' => '\\StructType\\PersonList',
+            'SurveyParticipant' => '\\StructType\\SurveyParticipant',
+            'ParticipantList' => '\\StructType\\ParticipantList',
+            'Period' => '\\StructType\\Period',
+            'PeriodList' => '\\StructType\\PeriodList',
+            'SimpleForm' => '\\StructType\\SimpleForm',
+            'SimpleFormList' => '\\StructType\\SimpleFormList',
+            'VFForm' => '\\StructType\\VFForm',
+            'AdditionalHeaderLine' => '\\StructType\\AdditionalHeaderLine',
+            'AdditionalHeaderLineList' => '\\StructType\\AdditionalHeaderLineList',
+            'ItemGroup' => '\\StructType\\ItemGroup',
+            'ItemGroupList' => '\\StructType\\ItemGroupList',
+            'Item' => '\\StructType\\Item',
+            'ItemList' => '\\StructType\\ItemList',
+            'Survey' => '\\StructType\\Survey',
+            'SurveyList' => '\\StructType\\SurveyList',
+            'SurveyHolder' => '\\StructType\\SurveyHolder',
+            'Unit' => '\\StructType\\Unit',
+            'UnitList' => '\\StructType\\UnitList',
+            'OnlineSurveyKey' => '\\StructType\\OnlineSurveyKey',
+            'OnlineSurveyKeyList' => '\\StructType\\OnlineSurveyKeyList',
+            'SurveyType' => '\\StructType\\SurveyType',
+            'SurveyTypeList' => '\\StructType\\SurveyTypeList',
+            'OnlineCode' => '\\StructType\\OnlineCode',
+            'OnlineCodeList' => '\\StructType\\OnlineCodeList',
+            'InvitationTask' => '\\StructType\\InvitationTask',
+            'RemindTask' => '\\StructType\\RemindTask',
+            'ResponseRateTask' => '\\StructType\\ResponseRateTask',
+            'CloseTask' => '\\StructType\\CloseTask',
+            'TaskList' => '\\StructType\\TaskList',
+            'Session' => '\\StructType\\Session',
+            'SessionList' => '\\StructType\\SessionList',
+            'SurveyCreator' => '\\StructType\\SurveyCreator',
+            'SurveyCreatorList' => '\\StructType\\SurveyCreatorList',
+            'Instructor' => '\\StructType\\Instructor',
+            'InstructorList' => '\\StructType\\InstructorList',
+            'SurveyStatus' => '\\StructType\\SurveyStatus',
+            'SurveyStatusList' => '\\StructType\\SurveyStatusList',
+            'UploadStatus' => '\\StructType\\UploadStatus',
+            'UploadStatusList' => '\\StructType\\UploadStatusList',
+            'PDFPlugin' => '\\StructType\\PDFPlugin',
+            'PDFPluginList' => '\\StructType\\PDFPluginList',
+            'PDFPluginContainer' => '\\StructType\\PDFPluginContainer',
+            'SurveyRawDataList' => '\\StructType\\SurveyRawDataList',
+            'SurveyRawData' => '\\StructType\\SurveyRawData',
+            'ItemAnswer' => '\\StructType\\ItemAnswer',
+            'ItemAnswerList' => '\\StructType\\ItemAnswerList',
+            'ItemAnswerListList' => '\\StructType\\ItemAnswerListList',
+            'SurveyResult' => '\\StructType\\SurveyResult',
+            'ItemResult' => '\\StructType\\ItemResult',
+            'ItemResultList' => '\\StructType\\ItemResultList',
+            'FrequencyList' => '\\StructType\\FrequencyList',
+            'ItemGroupResult' => '\\StructType\\ItemGroupResult',
+            'ItemGroupResultList' => '\\StructType\\ItemGroupResultList',
+            'CustomReportList' => '\\StructType\\CustomReportList',
+            'CustomReport' => '\\StructType\\CustomReport',
+            'EmailAddressList' => '\\StructType\\EmailAddressList',
+            'CustomModuleForm' => '\\StructType\\CustomModuleForm',
+            'ModuleItemGroup' => '\\StructType\\ModuleItemGroup',
+            'ModuleItemGroupList' => '\\StructType\\ModuleItemGroupList',
+            'ModuleSurveyCreator' => '\\StructType\\ModuleSurveyCreator',
+            'ModuleSurveyCreatorList' => '\\StructType\\ModuleSurveyCreatorList',
+            'ModuleSession' => '\\StructType\\ModuleSession',
+            'ModuleSessionList' => '\\StructType\\ModuleSessionList',
+            'Module' => '\\StructType\\Module',
+            'ModuleList' => '\\StructType\\ModuleList',
+            'UserSession' => '\\StructType\\UserSession',
+            'CourseType' => '\\StructType\\CourseType',
+            'CourseTypeList' => '\\StructType\\CourseTypeList',
+            'VolumeLicense' => '\\StructType\\VolumeLicense',
+            'VolumeLicenseList' => '\\StructType\\VolumeLicenseList',
+        );
+    }
+}
